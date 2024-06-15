@@ -11,6 +11,8 @@ function rollDice() {
         return;
     }
 
+    const diceType = parseInt(document.getElementById('diceType').value);
+
     const diceContainer = document.getElementById('diceContainer');
     diceContainer.innerHTML = '';
 
@@ -18,7 +20,7 @@ function rollDice() {
     results = [];
 
     for (let i = 0; i < numDice; i++) {
-        const roll = Math.floor(Math.random() * 20) + 1;
+        const roll = Math.floor(Math.random() * diceType) + 1;
         results.push(roll);
         total += roll;
 
@@ -72,6 +74,7 @@ function createChart(frequency) {
         },
         options: {
             responsive: true,
+            maintainAspectRatio: false,
             plugins: {
                 legend: {
                     display: true,

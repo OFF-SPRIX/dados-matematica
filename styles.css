@@ -4,19 +4,19 @@ body {
     justify-content: center;
     align-items: flex-start; /* Estica para cima conforme necessário */
     min-height: 100vh; /* Altura mínima de 100% da viewport */
-    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
     margin: 0;
 }
-
 .container {
     text-align: center;
-    background-color: #ffe3fd;
+    background-color: #c5badf;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 800px; /* Aumentei para 800px para acomodar melhor o conteúdo */
-    margin-bottom: 20px; /* Espaço abaixo para evitar que o conteúdo toque a parte inferior da tela */
+    max-width: 530px; /* Aumentei para 800px para acomodar melhor o conteúdo */
+    margin-bottom: 30px; /* Espaço abaixo para evitar que o conteúdo toque a parte inferior da tela */
+    margin-top: 70px;
 }
 
 h1 {
@@ -35,7 +35,7 @@ input, select {
     padding: 10px;
     width: calc(100% - 22px);
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #3f0352;
     border-radius: 10px;
     transition: border 0.3s ease-in-out;
 }
@@ -46,7 +46,7 @@ input:focus, select:focus {
 
 button {
     padding: 10px 20px;
-    background-color: #6a0572;
+    background-color: #6f1875;
     color: #fff;
     border: none;
     border-radius: 10px;
